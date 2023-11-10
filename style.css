@@ -36,6 +36,7 @@ body {
     display: flex;
     align-items: center;
     gap: .8rem;
+    color: hsl(224, 21%, 14%);
 }
 
 .top div span {
@@ -48,4 +49,76 @@ body {
 .top a{
     color:  hsl(219, 12%, 42%);
     font-weight: 500;
+}
+
+.notifications{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-top: 2rem;
+}
+
+.notifications .card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background:  hsl(210, 60%, 98%);
+    padding: 1rem ;
+    border-radius: .3rem;
+}
+.notifications .cards{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* background:  hsl(210, 60%, 98%); */
+    padding: 1rem ;
+    border-radius: .3rem;
+}
+
+.notifications .card img ,
+.notifications .cards img {
+    width: 3rem;
+}
+
+
+.notifications .card div p,
+.notifications .cards div p  {
+    font-size: 1rem;
+    word-spacing: .2rem;
+    color: hsl(219, 12%, 42%);
+}
+.notifications .card div p b,
+.notifications .cards div p b{
+    color: hsl(224, 21%, 14%);
+}
+
+.notifications .card div p span ,
+.notifications .cards div p span{
+    color:  hsl(219, 85%, 26%);
+}
+
+.notifications .card div p i,
+.notifications .cards div p i{
+    font-size: .6rem;
+    margin-left: .8rem;
+    color:  hsl(1, 90%, 64%);
+}
+
+.notifications .message{
+    border: .5px solid hsl(219, 12%, 42%);
+    border-radius: .5rem;
+    color:  hsl(219, 12%, 42%);
+    word-spacing: .5rem;
+    padding: 1rem;
+    margin-left: 4.6rem;
+}
+.hidden0{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+
+.card:hover{
+    background-color: white;
 }
